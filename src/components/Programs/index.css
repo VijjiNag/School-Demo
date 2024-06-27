@@ -1,0 +1,820 @@
+.container {
+  width: 100%;
+  max-width: 100vw; /* Ensure container doesn't exceed viewport width */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.programs-bg-container-1 {
+  background-color: #f7f7f7;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.programs-head-1 {
+  font-family: Fredoka;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56.47px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #75003d;
+}
+
+.programs-desc {
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39.72px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #210152;
+}
+
+.programs-cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.programs-card-1 {
+  width: 400px;
+  height: 500px;
+  top: 1474px;
+  left: 123px;
+  gap: 0px;
+  border-radius: 32px;
+  border: 1.5px 0px 0px 0px;
+  opacity: 0px;
+  border: 1.5px dashed #75003d;
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.programs-img {
+  width: 100px;
+}
+
+.sport-programs-head {
+  font-family: Fredoka;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40.16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #75003d;
+}
+
+.sport-programs-desc {
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39.72px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #210152;
+}
+
+.sport-view-details-btn {
+  font-family: Fredoka;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27.61px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #75003d;
+  width: 268px;
+  height: 77px;
+  top: 1947px;
+  left: 247px;
+  gap: 0px;
+  border-radius: 61px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #75003d;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.programs-card-2 {
+  width: 400px;
+  height: 500px;
+  top: 1474px;
+  left: 123px;
+  gap: 0px;
+  border-radius: 32px;
+  border-style: none;
+  background: linear-gradient(
+      rgba(44, 196, 185, 0.65),
+      rgba(44, 196, 185, 0.65)
+    ),
+    url('https://s3-alpha-sig.figma.com/img/1f4d/66d9/7c346da11e8585b1b08014ca9b7aa54d?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IbDdQELsfKh7D06rXUarC712lrrqY3cTPJ5xKAN2d0eqFBYeYgAx-3m0~-Npklq3EEt1ILhScaJwG5DJ2F3MFGHoJHTcakZ-RPobI-RDOEfHIdJQx6cNn3LXHri94BS-QTGwSGwK70DV1bIJ3sD-aksYzmDZ6PNgcUUcprq3YxGIDrD9CKk1HEYPMJwCgpsgnJ3b1a2tRhqUAdJ5MvsQgQxFWRZe4SjJOJ7yXvsVA1YZwRNMJRmei9AfHF6bw1SuuxOn2lpN7zkQQHNehVKjAyXDPT-bGoXkSPPoZapqeFv0QTNzXoQJlSIaLzEJcevLCvoAxP12gNzi8i-H1sS1-Q__');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-view-details-btn {
+  font-family: Fredoka;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27.61px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  width: 268px;
+  height: 77px;
+  top: 1947px;
+  left: 247px;
+  gap: 0px;
+  border-radius: 61px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.music-programs-head {
+  font-family: Fredoka;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40.16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.music-programs-desc {
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39.72px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.programs-bg-container-2 {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.programs-banner-container {
+  width: 50%;
+}
+
+.programs-banner-img {
+  width: 891px;
+  height: 715.41px;
+  top: 2376px;
+  left: 79px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.programs-content-container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.programs-head-2 {
+  font-family: Fredoka;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56.47px;
+  letter-spacing: 0.03em;
+  color: #75003d;
+}
+
+.programs-desc-2 {
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39.72px;
+  letter-spacing: 0.03em;
+  color: #210152;
+}
+
+.programs-dashboard-container {
+  width: 800px;
+  height: 166px;
+  margin-bottom: 20px;
+  gap: 0;
+  border-radius: 32px;
+  opacity: 0px;
+  background-color: #19c1b6;
+  padding: 0 35px;
+  /* Shorthand for padding-left and padding-right */
+  display: flex;
+  /* Add flex display to center content */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+}
+
+.programs-view-details-btn {
+  width: 300px;
+  height: 90px;
+  top: 2982px;
+  left: 1105px;
+  gap: 0px;
+  border-radius: 42px;
+  border-style: none;
+  opacity: 0px;
+  background-color: #fea439;
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 37.32px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.programs-dashboard-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* Ensure the container takes full width */
+  gap: 50px;
+}
+
+.programs-dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Ensure text is centered */
+}
+
+.programs-dashboard-head {
+  font-family: Fredoka, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.16px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.programs-dashboard-desc {
+  font-family: Fredoka, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31.1px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+  width: auto;
+  /* Adjust to allow dynamic width */
+  margin-top: 0;
+  width: 100px;
+}
+
+.line {
+  width: 1px;
+  height: 75px;
+  border: 1.5px solid #50d6cd;
+  background-color: #50d6cd;
+  margin: 0 20px;
+  /* Add margin for spacing */
+}
+
+.programs-bg-container-3 {
+  background-image: linear-gradient(280.19deg, #edfefc 13.84%, #fef6ec 96.14%);
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.programs-head-3 {
+  font-family: Fredoka;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56.47px;
+  letter-spacing: 0.03em;
+  color: #75003d;
+}
+
+.programs-desc-3 {
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39.72px;
+  letter-spacing: 0.03em;
+  color: #210152;
+  text-align: center;
+  margin-top: 0;
+  width: 50%;
+}
+
+.programs-cards-container-sports {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.programs-card-container-sports {
+  width: 532px;
+  height: 853px;
+  top: 3682px;
+  left: 129px;
+  gap: 0px;
+  border-radius: 32px;
+  opacity: 0px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.programs-card-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.drawing-programs-head {
+  font-family: Fredoka;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40.16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #75003d;
+}
+
+.drawing-programs-desc {
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39.72px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #210152;
+  width: 350px;
+}
+
+.sports-card-head {
+  font-family: Fredoka;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40.16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #75003d;
+}
+
+.sports-card-desc {
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39.72px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #210152;
+}
+
+.sports-card-dashboard-container-1 {
+  max-width: 100%;
+  height: 166px;
+  gap: 10px;
+  border-radius: 32px;
+  opacity: 0px;
+  background-color: #19c1b6;
+  padding: 0 35px;
+  /* Shorthand for padding-left and padding-right */
+  display: flex;
+  /* Add flex display to center content */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+}
+
+.sports-card-dashboard-container-2 {
+  max-width: 100%;
+  height: 166px;
+  gap: 10px;
+  border-radius: 32px;
+  opacity: 0px;
+  background-color: #fea439;
+  padding: 0 35px;
+  /* Shorthand for padding-left and padding-right */
+  display: flex;
+  /* Add flex display to center content */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+}
+
+.sports-card-dashboard-container-3 {
+  max-width: 100%;
+  height: 166px;
+  gap: 10px;
+  border-radius: 32px;
+  opacity: 0px;
+  background-color: #fe6788;
+  padding: 0 35px;
+  /* Shorthand for padding-left and padding-right */
+  display: flex;
+  /* Add flex display to center content */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+}
+
+.line-1 {
+  width: 1px;
+  height: 75px;
+  border: 1.5px solid #fbc585;
+  background-color: #fbc585;
+  margin: 0 20px;
+  /* Add margin for spacing */
+}
+
+.line-2 {
+  width: 1px;
+  height: 75px;
+  border: 1.5px solid #fda2b6;
+  background-color: #fda2b6;
+  margin: 0 20px;
+  /* Add margin for spacing */
+}
+
+.forward-icon {
+  color: #19c1b6;
+  background-color: #d1f2f0;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+.programs-list-desc {
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37.32px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #000000;
+}
+
+.programs-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+}
+
+.sports-card-dashboard-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sports-card-dashboard-head {
+  font-family: Fredoka;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.sports-card-dashboard-desc {
+  font-family: Fredoka;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31.1px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+/* General container settings */
+.container {
+  width: 100%;
+  max-width: 100vw; /* Ensure container doesn't exceed viewport width */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Section 1: Programs Background Container */
+.programs-bg-container-1 {
+  background-color: #f7f7f7;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.programs-head-1 {
+  font-family: Fredoka;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56.47px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #75003d;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.programs-desc {
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39.72px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #210152;
+  margin-bottom: 30px; /* Adjust margin as needed */
+}
+
+/* Cards container */
+.programs-cards-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Default to one column */
+  gap: 30px;
+  margin-top: 30px; /* Adjust margin as needed */
+}
+
+/* Individual card styles */
+.programs-card {
+  width: 100%; /* Occupy full width of its container */
+  max-width: 400px; /* Limit card width to 400px */
+  height: 500px; /* Fixed height for consistency */
+  border-radius: 32px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px; /* Adjust padding as needed */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+.programs-img {
+  width: 100px; /* Example image size */
+  height: auto;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.view-details-btn {
+  font-family: Fredoka;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27.61px;
+  letter-spacing: 0.02em;
+  color: #75003d;
+  width: 268px;
+  height: 77px;
+  border-radius: 61px;
+  border: 1px solid #75003d;
+  cursor: pointer;
+  background-color: transparent;
+  margin-top: auto; /* Push button to the bottom */
+}
+
+/* Responsive adjustments */
+@media screen and (min-width: 1300px) {
+  .programs-cards-container {
+    grid-template-columns: 1fr 1fr 1fr; /* Two columns on medium screens */
+  }
+
+  .programs-cards-container-sports {
+    grid-template-columns: 1fr 1fr; /* Two columns on medium screens */
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .programs-cards-container-sports {
+    grid-template-columns: 1fr 1fr 1fr; /* Two columns on medium screens */
+  }
+}
+@media screen and (max-width: 1300px) {
+  .programs-cards-container {
+    grid-template-columns: 1fr 1fr; /* Three columns on large screens */
+  }
+
+  .programs-cards-container-sports {
+    grid-template-columns: 1fr; /* Two columns on medium screens */
+  }
+}
+
+@media screen and (max-width: 862px) {
+  .programs-cards-container {
+    grid-template-columns: 1fr; /* Two columns on medium screens */
+  }
+
+  .programs-cards-container-sports {
+    grid-template-columns: 1fr; /* Two columns on medium screens */
+  }
+
+  .programs-banner-container {
+    display: none;
+  }
+
+  .programs-content-container-2 {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 30px; /* Add padding for spacing */
+  }
+}
+
+@media screen and (max-width: 1679px) {
+  .programs-banner-container {
+    display: none;
+  }
+
+  .programs-view-details-btn {
+    align-self: center;
+  }
+
+  .programs-bg-container-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .programs-dashboard-container {
+    align-self: center;
+  }
+
+  .programs-content-container-2 {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 30px; /* Add padding for spacing */
+  }
+  .programs-lists-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 644px) {
+  .programs-card-container-sports {
+    width: 370px;
+    height: 853px;
+    top: 3682px;
+    left: 129px;
+    gap: 0px;
+    border-radius: 32px;
+    opacity: 0px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  .sports-card-dashboard-head {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .programs-bg-container-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .programs-banner-container {
+    display: none;
+  }
+
+  .programs-content-container-2 {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 30px; /* Add padding for spacing */
+  }
+
+  .programs-head-2 {
+    font-size: 45px;
+    text-align: left;
+  }
+
+  .programs-desc-2 {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .programs-dashboard-container {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .programs-content-container-2 {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0; /* Reset padding */
+    text-align: center;
+  }
+
+  .programs-dashboard-content-container {
+    gap: 0;
+  }
+
+  .programs-banner-container {
+    display: none;
+  }
+
+  .programs-dashboard-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .programs-bg-container-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .programs-banner-container {
+    display: none;
+  }
+
+  .programs-content-container-2 {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 0; /* Reset padding */
+  }
+
+  .programs-head-2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .programs-desc-2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .programs-dashboard-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 642px) {
+  .programs-list-container {
+    height: 70px;
+  }
+
+  .forward-icon {
+    align-self: first baseline;
+  }
+
+  .programs-list-desc {
+    align-self: first baseline;
+  }
+
+  .programs-lists-container {
+    margin-bottom: 30px;
+  }
+}

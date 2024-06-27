@@ -1,0 +1,171 @@
+/* General container settings */
+.container {
+  width: 100%;
+}
+
+/* Navbar container */
+.nav-bg-container {
+  width: 100%;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Logo container */
+.nav-logo-container {
+  width: 233px;
+  height: auto;
+}
+
+/* Navigation items container */
+.nav-items-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Navigation item styles */
+.nav-item {
+  font-family: Fredoka;
+  text-decoration: none;
+  color: #942c4d;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Sign-in button container */
+.sign-in-btn-container {
+  margin-right: 30px;
+}
+
+/* Sign-in button styles */
+.sign-in-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  background: #19c1b6;
+  color: #ffffff;
+  border: none;
+  font-family: Fredoka;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Active navigation item styles */
+.nav-item-active {
+  font-family: Fredoka;
+  color: #19c1b6;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-item-active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 2px;
+  background-color: currentColor;
+}
+
+/* Menu icon styles for smaller screens */
+.nav-menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .nav-items-container {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    background-color: #fefefe;
+    padding: 20px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    align-items: center;
+  }
+
+  .nav-items-container.open {
+    display: flex;
+  }
+
+  .nav-item {
+    margin-right: 0;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .sign-in-btn-container {
+    display: none;
+  }
+
+  .nav-menu-icon {
+    display: block;
+  }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  .nav-bg-container {
+    flex-direction: row; /* Keep flex direction as row */
+    align-items: center;
+    justify-content: space-between; /* Ensure logo and menu icon are on the same line */
+    padding: 10px;
+  }
+
+  .nav-logo-container {
+    margin-left: 0;
+  }
+
+  .sign-in-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-items-container {
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+  }
+
+  .nav-item {
+    font-size: 18px;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .nav-item-active {
+    color: #19c1b6;
+    font-weight: bold;
+  }
+
+  .nav-item-active::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -4px;
+    height: 2px;
+    background-color: currentColor;
+    width: 50%;
+  }
+}

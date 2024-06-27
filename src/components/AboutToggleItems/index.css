@@ -1,0 +1,104 @@
+/* Default styles */
+
+.about-toggle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.3s ease; /* Adding transition for smooth animation */
+}
+
+.about-toggle-container-active {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fea439;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.3s ease; /* Adding transition for smooth animation */
+}
+
+.toggle-icon {
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 2px solid #000000;
+}
+
+.toggle-icon-active {
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+
+.about-toggle-item {
+  background-color: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  transition: all 0.3s ease; /* Adding transition for smooth animation */
+}
+
+.about-toggle-title,
+.about-toggle-title-active {
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 39.72px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #012052;
+}
+
+.about-toggle-title-active {
+  color: #ffffff;
+}
+
+.about-toggle-description {
+  font-family: Fredoka;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33.1px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #012052;
+  margin-left: 10px;
+}
+
+/* Media Queries */
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .about-toggle-container,
+  .about-toggle-container-active {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px; /* Increase padding for better spacing on smaller screens */
+  }
+
+  .toggle-icon,
+  .toggle-icon-active {
+    margin-top: 10px; /* Adjust icon spacing */
+  }
+
+  .about-toggle-title,
+  .about-toggle-title-active {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .about-toggle-description {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}

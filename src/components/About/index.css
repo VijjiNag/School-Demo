@@ -1,0 +1,318 @@
+/* index.css */
+
+/* Ensure overall container respects viewport width */
+.container {
+  width: 100%;
+  max-width: 100vw; /* Ensure container doesn't exceed viewport width */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* About section */
+.about-container {
+  background-color: #f7f7f7;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.about-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.about-head {
+  font-family: Fredoka;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56.47px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #000000;
+}
+
+.about-toggle-items {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.about-banner-container {
+  width: 50%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure no overflow beyond parent container */
+}
+
+.about-banner-img {
+  width: 100%; /* Ensures the image fills its container */
+  max-width: 100%; /* Ensures image doesn't exceed its natural size */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 16px; /* Example of border radius for styling */
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .about-container {
+    flex-direction: row;
+    height: auto;
+    gap: 20px;
+  }
+
+  .about-content-container {
+    width: 50%;
+  }
+
+  .about-banner-container {
+    display: 50%;
+  }
+
+  .about-head {
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-container {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .about-content-container {
+    width: 100%;
+  }
+
+  .about-banner-container {
+    display: none;
+  }
+
+  .about-head {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .about-banner-img {
+    max-width: 80%; /* Adjust max-width for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 10px; /* Further adjust padding for smaller screens */
+  }
+
+  .about-content-container {
+    width: 100%;
+  }
+
+  .about-banner-container {
+    display: none;
+  }
+
+  .about-head {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .about-banner-img {
+    max-width: 90%; /* Adjust max-width for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .about-head {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .about-banner-container {
+    display: none;
+  }
+}
+
+/* Best teachers section */
+.best-teachers-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.best-teachers-head {
+  font-family: Fredoka;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56.47px;
+  letter-spacing: 0.03em;
+  color: #75003d;
+  text-align: center;
+}
+
+.best-teachers-desc {
+  font-family: Fredoka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39.72px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #210152;
+}
+
+.teachers-image-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.teacher-img-1,
+.teacher-img-2,
+.teacher-img-3,
+.teacher-img-4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 32px;
+}
+
+.teacher-img-1 {
+  background-image: url('https://res.cloudinary.com/dhfmjj1j9/image/upload/v1719210135/Rectangle_69_zvlyy4.png');
+}
+
+.teacher-img-2 {
+  background-image: url('https://res.cloudinary.com/dhfmjj1j9/image/upload/v1719211204/Rectangle_70_kooq2g.png');
+}
+
+.teacher-img-3 {
+  background-image: url('https://res.cloudinary.com/dhfmjj1j9/image/upload/v1719211424/Rectangle_71_pylc3w.png');
+}
+
+.teacher-img-4 {
+  background-image: url('https://res.cloudinary.com/dhfmjj1j9/image/upload/v1719211547/Rectangle_72_qu7jfq.png');
+}
+
+.teacher-title-container {
+  width: 100%;
+  height: 141px;
+  border-radius: 32px;
+  background: linear-gradient(90.08deg, #edfefc 0.05%, #fef6ec 99.91%);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box; /* Ensure padding doesn't affect container size */
+}
+
+.teacher-title {
+  font-family: Fredoka;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40.16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #000000;
+}
+
+.teacher-desc {
+  font-family: Fredoka;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.59px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #000000;
+}
+
+/* Media Queries for Best Teachers Section */
+@media (max-width: 1200px) {
+  .teachers-image-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .teachers-image-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .best-teachers-head,
+  .best-teachers-desc {
+    font-size: 24px;
+  }
+
+  .best-teachers-desc {
+    font-size: 20px;
+  }
+
+  .teacher-img-1,
+  .teacher-img-2,
+  .teacher-img-3,
+  .teacher-img-4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .teachers-image-container {
+    grid-template-columns: 1fr;
+  }
+
+  .teacher-img-1,
+  .teacher-img-2,
+  .teacher-img-3,
+  .teacher-img-4 {
+    height: 50vh;
+  }
+
+  .best-teachers-head {
+    font-size: 24px;
+  }
+
+  .best-teachers-desc {
+    font-size: 18px;
+  }
+
+  .teacher-img-1,
+  .teacher-img-2,
+  .teacher-img-3,
+  .teacher-img-4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 115vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .best-teachers-head {
+    font-size: 20px;
+  }
+
+  .best-teachers-desc {
+    font-size: 16px;
+  }
+}

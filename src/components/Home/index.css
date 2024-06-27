@@ -1,0 +1,142 @@
+/* General container settings */
+.container {
+  width: 100%;
+}
+
+/* Background container */
+.home-bg-container {
+  background: linear-gradient(280.19deg, #edfefc 13.84%, #fef6ec 96.14%);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 27px;
+  width: 100%; /* Ensures full width */
+  box-sizing: border-box; /* Ensures padding doesn't add to width */
+}
+
+/* Content container */
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+/* Headline */
+.home-head {
+  font-family: Fredoka;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 87.85px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #000000;
+  margin-top: 0;
+  width: 100%;
+}
+
+/* Program description */
+.kindergarten-program {
+  font-family: Fredoka;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40.16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #1dc1b6;
+}
+
+/* Admission text */
+.home-admission {
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Apply Now button */
+.apply-now-btn {
+  font-family: Fredoka;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32.63px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-align: center;
+  width: 248px;
+  height: 91px;
+  margin-top: 20px;
+  border-radius: 94px;
+  border-style: none;
+  background: #fea439;
+  cursor: pointer;
+}
+
+/* Banner container */
+.home-banner-container {
+  width: 50%;
+}
+
+/* Banner image */
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Queries */
+
+/* For screens smaller than 1024px */
+@media (max-width: 1024px) {
+  .home-bg-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Adjusted padding for smaller screens */
+  }
+
+  .home-content-container {
+    width: 80%;
+    text-align: center;
+  }
+
+  .home-head,
+  .home-admission {
+    text-align: center;
+  }
+
+  .home-banner-container {
+    display: none;
+  }
+  .apply-now-btn {
+    font-size: 20px;
+    line-height: 25px;
+    height: 70px;
+    align-self: center;
+  }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .home-content-container {
+    width: 100%;
+  }
+
+  .apply-now-btn {
+    font-size: 20px;
+    line-height: 25px;
+    height: 70px;
+    align-self: center;
+  }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  .home-head {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .home-admission {
+    font-size: 16px;
+  }
+}
